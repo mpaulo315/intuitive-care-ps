@@ -1,12 +1,13 @@
 # Iniciando o projeto
 
-Cada teste pode ser avaliado individualmente. Para isso, basta seguir as seguintes intruções:
+Cada teste pode ser avaliado individualmente. Para isso, basta seguir as seguintes instruções:
 
-## Teste 1
+## Teste 1 e 2
 
+Para executar o projeto, basta seguir os seguintes passos:
 ```powershell
 ## Acessando o diretório do projeto
-cd Teste_1\
+cd Teste_<número_do_teste>\
 
 ## Criando o ambiente virtual
 python -m venv <nome_do_ambiente>
