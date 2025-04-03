@@ -25,18 +25,27 @@ python main.py
 
 **Arquitetura das pastas implementada no código:**
 
-
-:open_file_folder: Teste_3
-├──   :page_facing_up: main.sql
-|   
-├── :file_folder: 2023
-|   ├── :green_book: 1T2023.csv
-|   ├── :green_book: 2t2023.csv
-|   ├── :green_book: 3T2023.csv
-|   ├── :green_book: 4T2023.csv
-|       
-├── :open_file_folder: 2024
-    ├── :green_book: 1T2024.csv
-    ├── :green_book: 2T2024.csv
-    ├── :green_book: 3T2024.csv
-    ├── :green_book: 4T2024.csv
+<ul>
+    <li>:open_file_folder: Teste_3</li>
+    <li>
+    <ul>
+        <li>:page_facing_up: main.sql</li>
+        <li>:open_file_folder: 2023
+        <ul>
+            <li>:green_book: 1T2023.csv</li>
+            <li>:green_book: 2t2023.csv</li>
+            <li>:green_book: 3T2023.csv</li>
+            <li>:green_book: 4T2023.csv</li>
+        </ul>
+    </li>
+    <li>:open_file_folder: 2024
+        <ul>
+            <li>:green_book: 1T2024.csv</li>
+            <li>:green_book: 2T2024.csv</li>
+            <li>:green_book: 3T2024.csv</li>
+            <li>:green_book: 4T2024.csv</li>
+        </ul>
+    </li>
+    </ul>
+    </li>
+</ul>
