@@ -25,7 +25,7 @@ python main.py
 
 **Arquitetura das pastas implementada no código:**
 
-```md
+
 :open_file_folder: Teste_3
 ├──   :page_facing_up: main.sql
 |   
@@ -40,4 +40,3 @@ python main.py
     ├── :green_book: 2T2024.csv
     ├── :green_book: 3T2024.csv
     ├── :green_book: 4T2024.csv
-```
