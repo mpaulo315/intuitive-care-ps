@@ -19,3 +19,25 @@ pip install -r requirements.txt
 ## Executando o projeto
 python main.py
 ```
+
+## Teste 3
+**Banco utilizado**: **MySQL** :dolphin:
+
+**Arquitetura das pastas implementada no código:**
+
+```md
+:open_file_folder: Teste_3
+├──   :page_facing_up: main.sql
+|   
+├── :file_folder: 2023
+|   ├── :green_book: 1T2023.csv
+|   ├── :green_book: 2t2023.csv
+|   ├── :green_book: 3T2023.csv
+|   ├── :green_book: 4T2023.csv
+|       
+├── :open_file_folder: 2024
+    ├── :green_book: 1T2024.csv
+    ├── :green_book: 2T2024.csv
+    ├── :green_book: 3T2024.csv
+    ├── :green_book: 4T2024.csv
+```
