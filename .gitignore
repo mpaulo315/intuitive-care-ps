@@ -5,6 +5,8 @@ venv*/
 
 # Teste_1
 Teste_1/*/
+Teste_1/*.pdf
+Teste_1/*.zip
 
 # Teste_2
 Teste_2/*.zip

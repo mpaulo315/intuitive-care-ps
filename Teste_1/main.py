@@ -5,6 +5,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 import platform
+import zipfile
+import pathlib
 
 BASE_URL = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos"
 DEFAULT_TIMEOUT = 30
@@ -112,5 +114,12 @@ try :
 
     download_pdf_file(url=attach_1_el.get_attribute("href"))
     download_pdf_file(url=attach_2_el.get_attribute("href"))
+
+    # Zip the files
+    directory = pathlib.Path()
+    zip_file = zipfile.ZipFile("attachments.zip", "w")
+
+    for attach_path in directory.glob("*.pdf"):
+        zip_file.write(attach_path)
 finally:
     driver.quit()
