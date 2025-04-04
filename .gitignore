@@ -10,3 +10,37 @@ Teste_1/*.zip
 
 # Teste_2
 Teste_2/*.zip
+
+# Teste_4
+
+# FRONTEND
+# Logs
+Teste_4/**/logs
+Teste_4/**/*.log
+Teste_4/**/npm-debug.log*
+Teste_4/**/yarn-debug.log*
+Teste_4/**/yarn-error.log*
+Teste_4/**/pnpm-debug.log*
+Teste_4/**/lerna-debug.log*
+
+Teste_4/**/node_modules
+Teste_4/**/dist
+Teste_4/**/dist-ssr
+Teste_4/**/*.local
+
+# Editor directories and files
+Teste_4/**/.vscode/*
+Teste_4/**/!.vscode/extensions.json
+Teste_4/**/.idea
+Teste_4/**/.DS_Store
+Teste_4/**/*.suo
+Teste_4/**/*.ntvs*
+Teste_4/**/*.njsproj
+Teste_4/**/*.sln
+Teste_4/**/*.sw?
+
+
+#BACKEND
+Teste_4/**/venv/
+Teste_4/**/*.db
+Teste_4/**/*.env
