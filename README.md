@@ -92,4 +92,28 @@ Por fim
 python api/main.py
 ```
 
-Uma vez que o servidor estiver rodando, basta acessar a rota `http://0.0.0.0:8000/docs` para visualizar a documentação da API.
+Uma vez que o servidor estiver rodando, basta acessar a rota `http://localhost:8000/docs` para visualizar a documentação da API.
+
+### Frontend
+**Tecnologias:** **JavaScript** :computer:
+* Vue.js
+* Tanstack-Query
+* Axios
+
+### Instruções para execução
+Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
+```env
+VITE_API_URL=http://localhost:8000/docs
+```
+
+```powershell
+cd Teste_4\frontend
+
+## Instalação das dependências
+npm install | yarn install
+
+## Execução do projeto
+npx vite dev | yarn run dev
+```
+
+E pronto, ambos backend e frontend estão rodando.
