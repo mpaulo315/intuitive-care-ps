@@ -1,6 +1,6 @@
 from typings.operadora import Operadora
 from datetime import datetime
-from db.connection import get_connection, dict_factory
+from db import get_connection, dict_factory
 from typing import Union
 
 def get_operadoras() -> list[Operadora]:

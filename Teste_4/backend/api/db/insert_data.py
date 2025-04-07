@@ -1,6 +1,6 @@
 import csv
 from tqdm.auto import tqdm
-from .connection import get_connection
+from db import get_connection
 import os
 
 def insert_csv_data(file_path_list: list[str], table_name: str, newline: str = "\n", delimiter: str = ","):
